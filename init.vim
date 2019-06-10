@@ -5,6 +5,7 @@ Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/jiangmiao/auto-pairs'
+Plug 'https://github.com/mxw/vim-jsx'
 call plug#end()
 
 " some general stuffs

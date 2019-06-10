@@ -1,5 +1,6 @@
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'crusoexia/vim-monokai'
+Plug 'mileszs/ack.vim'
 Plug 'https://github.com/pangloss/vim-javascript.git'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'

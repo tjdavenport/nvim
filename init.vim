@@ -10,8 +10,6 @@ Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'https://github.com/mxw/vim-jsx'
 Plug 'https://github.com/peitalin/vim-jsx-typescript'
 Plug 'https://github.com/jason0x43/vim-js-indent'
-Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
-Plug 'Shougo/deoplete.nvim'
 call plug#end()
 
 " some general stuffs

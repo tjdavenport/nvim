@@ -10,6 +10,7 @@ Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'https://github.com/mxw/vim-jsx'
 Plug 'https://github.com/peitalin/vim-jsx-typescript'
 Plug 'https://github.com/jason0x43/vim-js-indent'
+Plug 'thesis/vim-solidity'
 call plug#end()
 
 " some general stuffs
@@ -27,6 +28,7 @@ set expandtab
 set smarttab
 set nostartofline
 set ruler
+set nofoldenable
 set backspace=indent,eol,start
 colorscheme monokai
 let mapleader=","

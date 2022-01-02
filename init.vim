@@ -1,6 +1,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'crusoexia/vim-monokai'
 Plug 'mileszs/ack.vim'
+Plug 'thesis/vim-solidity'
 Plug 'https://github.com/HerringtonDarkholme/yats.vim'
 Plug 'https://github.com/pangloss/vim-javascript.git'
 Plug 'https://github.com/scrooloose/nerdtree.git'
@@ -27,6 +28,7 @@ set expandtab
 set smarttab
 set nostartofline
 set ruler
+set nofoldenable
 set backspace=indent,eol,start
 colorscheme monokai
 let mapleader=","

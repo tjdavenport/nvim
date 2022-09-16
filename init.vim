@@ -1,23 +1,30 @@
 call plug#begin('~/.local/share/nvim/plugged')
+" general
 Plug 'crusoexia/vim-monokai'
-Plug 'mileszs/ack.vim'
-Plug 'thesis/vim-solidity'
-Plug 'https://github.com/HerringtonDarkholme/yats.vim'
-Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/jiangmiao/auto-pairs'
-Plug 'https://github.com/mxw/vim-jsx'
-Plug 'https://github.com/peitalin/vim-jsx-typescript'
-Plug 'https://github.com/jason0x43/vim-js-indent'
+
+" language specific
 Plug 'thesis/vim-solidity'
+
+Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'https://github.com/mxw/vim-jsx'
+
+Plug 'https://github.com/HerringtonDarkholme/yats.vim'
+Plug 'https://github.com/peitalin/vim-jsx-typescript'
+
+Plug 'fatih/vim-go'
 call plug#end()
+
+colorscheme monokai
+syntax on
+filetype indent plugin on
 
 " some general stuffs
 set nocompatible
-syntax on
-filetype indent plugin on
 set wildmenu
 set noswapfile
 set number
@@ -31,7 +38,7 @@ set nostartofline
 set ruler
 set nofoldenable
 set backspace=indent,eol,start
-colorscheme monokai
+
 let mapleader=","
 map <leader>vm :tabe $MYVIMRC<CR>
 map q :q<CR>

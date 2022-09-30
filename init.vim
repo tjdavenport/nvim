@@ -1,4 +1,4 @@
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin()
 " general
 Plug 'crusoexia/vim-monokai'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

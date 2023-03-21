@@ -1,17 +1,18 @@
 call plug#begin()
 " general
-Plug 'crusoexia/vim-monokai'
+Plug 'patstockwell/vim-monokai-tasty'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/jiangmiao/auto-pairs'
+Plug 'elzr/vim-json'
 
 " language specific
 Plug 'thesis/vim-solidity'
 
 Plug 'https://github.com/pangloss/vim-javascript.git'
-Plug 'https://github.com/mxw/vim-jsx'
+Plug 'MaxMEllon/vim-jsx-pretty'
 
 Plug 'https://github.com/HerringtonDarkholme/yats.vim'
 Plug 'https://github.com/peitalin/vim-jsx-typescript'
@@ -19,7 +20,7 @@ Plug 'https://github.com/peitalin/vim-jsx-typescript'
 Plug 'fatih/vim-go'
 call plug#end()
 
-colorscheme monokai
+colorscheme vim-monokai-tasty
 syntax on
 filetype indent plugin on
 
